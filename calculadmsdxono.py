@@ -1,8 +1,4 @@
-from distutils.core import setup
-import py2exe
-setup(console=['calculadmsdxono.py'])
-import time
-import os
+
 
 def decimal_to_binary(decimal):
     return bin(decimal)[2:]
